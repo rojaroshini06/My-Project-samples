@@ -1,0 +1,155 @@
+{
+	"info": {
+		"_postman_id": "802ef20d-5181-4fce-a298-fd8816d52aed",
+		"name": "myinfo-test",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "https://sandbox.api.myinfo.gov.sg/com/v3/token?grant_type=\"authorization_code\"&code=\"74eb6e861ecefad307974cba87d8f9d2d81bfbed\"&redirect_uri=\"http://localhost:3003/callback\"&client_id=\"STG2-MYINFO-SELF-TEST\"&client_secret=\"44d953c796cccebcec9bdc826852857ab412fbe2\"&state=\"123\"",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					},
+					{
+						"key": "Cache-Control",
+						"value": "no-cache",
+						"type": "text"
+					},
+					{
+						"key": "authorization_code",
+						"value": "",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "app_id",
+							"value": "STG2-MYINFO-SELF-TEST",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "client_id",
+							"value": "STG2-MYINFO-SELF-TEST",
+							"type": "text"
+						},
+						{
+							"key": "client_secret",
+							"value": "44d953c796cccebcec9bdc826852857ab412fbe2",
+							"type": "text"
+						},
+						{
+							"key": "code",
+							"value": "74eb6e861ecefad307974cba87d8f9d2d81bfbed",
+							"type": "text"
+						},
+						{
+							"key": "grant_type",
+							"value": "authorization_code",
+							"type": "text"
+						},
+						{
+							"key": "nonce",
+							"value": "1792691191",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "redirect_uri",
+							"value": "http://localhost:3003/callback",
+							"type": "text"
+						},
+						{
+							"key": "signature_method",
+							"value": "RS256",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "state",
+							"value": "123",
+							"type": "text"
+						},
+						{
+							"key": "timestamp",
+							"value": "1652371898965",
+							"type": "text",
+							"disabled": true
+						}
+					]
+				},
+				"url": {
+					"raw": "https://sandbox.api.myinfo.gov.sg/com/v3/token?grant_type=\"authorization_code\"&code=\"74eb6e861ecefad307974cba87d8f9d2d81bfbed\"&redirect_uri=\"http://localhost:3003/callback\"&client_id=\"STG2-MYINFO-SELF-TEST\"&client_secret=\"44d953c796cccebcec9bdc826852857ab412fbe2\"&state=\"123\"",
+					"protocol": "https",
+					"host": [
+						"sandbox",
+						"api",
+						"myinfo",
+						"gov",
+						"sg"
+					],
+					"path": [
+						"com",
+						"v3",
+						"token"
+					],
+					"query": [
+						{
+							"key": "grant_type",
+							"value": "\"authorization_code\""
+						},
+						{
+							"key": "code",
+							"value": "\"74eb6e861ecefad307974cba87d8f9d2d81bfbed\""
+						},
+						{
+							"key": "redirect_uri",
+							"value": "\"http://localhost:3003/callback\""
+						},
+						{
+							"key": "client_id",
+							"value": "\"STG2-MYINFO-SELF-TEST\""
+						},
+						{
+							"key": "client_secret",
+							"value": "\"44d953c796cccebcec9bdc826852857ab412fbe2\""
+						},
+						{
+							"key": "state",
+							"value": "\"123\""
+						},
+						{
+							"key": "app_id",
+							"value": "STG2-MYINFO-SELF-TEST",
+							"disabled": true
+						},
+						{
+							"key": "nonce",
+							"value": "807505750",
+							"disabled": true
+						},
+						{
+							"key": "signature_method",
+							"value": "RS256",
+							"disabled": true
+						},
+						{
+							"key": "timestamp",
+							"value": "1652370733467",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
