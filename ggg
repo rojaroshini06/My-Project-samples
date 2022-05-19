@@ -6,3 +6,11 @@ eee2c75a8acda50c717b84c02b483a8ea493c541
 eee2c75a8acda50c717b84c02b483a8ea493c541
 cfd8aa7ee26a642508145403665e405f929c0cb7
 c8c0fd25df009a406b79ec6c1dbd3ac69a7712eb
+keytool -importcert stg_auth_public baeldung_public_cert -file baeldung.cer -keystore sample_keystore
+
+keytool -importcert -alias stg_auth_public -file ssl/staging_myinfo_public_cert.cer -keystore cert.jks
+
+
+openssl pkcs12 -export -in ssl/stg-demoapp-client-publiccert-2018.pem -inkey ssl/stg-demoapp-client-privatekey-2018.pem -out certificate.p12 -name stg-myinfo-key
+
+keytool -importkeystore -srckeystore certificate.p12 -srcstoretype pkcs12 -destkeystore cert.jks
