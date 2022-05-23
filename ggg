@@ -1,13 +1,4 @@
-https://test.api.myinfo.gov.sg/mockpass-sp/authorize?scope=openid&response_type=code&redirect_uri=https%3A%2F%2Ftest.api.myinfo.gov.sg%2Fserviceauth%2Fmyinfo-com%2Fv1%2Fauthenticate&client_id=NDI-AUTHCOM&state=T61wwPuihginSciBLOUnTtZnJ0bipodyWUco8TGM&nonce=ZgsPlTKtmBXi6IK2j5VUsLIsDmuLxcFdUDNNvXEn
-1065f562308f347485232ae82ae4ca1037177f83
-66f722c2a9a58caf13f418fd2ff482f5a96660cd
-409b7a374b59d57563b9e30ff2ff0bc572b365b8
-c0230dc97dac628a4e67e3fea183201f259411ae
-eee2c75a8acda50c717b84c02b483a8ea493c541
-eee2c75a8acda50c717b84c02b483a8ea493c541
-cfd8aa7ee26a642508145403665e405f929c0cb7
-c8c0fd25df009a406b79ec6c1dbd3ac69a7712eb
-keytool -importcert stg_auth_public baeldung_public_cert -file baeldung.cer -keystore sample_keystore
+https://sandbox.api.myinfo.gov.sg/com/v3/authorise?client_id=STG2-MYINFO-SELF-TEST&attributes=uinfin,name,sex,race,nationality,dob,email,mobileno&purpose=demonstrating MyInfo APIs&state=123&redirect_uri=http://localhost:3003/callback
 
 keytool -importcert -alias stg_auth_public -file ssl/staging_myinfo_public_cert.cer -keystore cert.jks
 
