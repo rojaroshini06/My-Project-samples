@@ -1,7 +1,4 @@
-https://test.api.myinfo.gov.sg/mockpass-sp/authorize?scope=openid&response_type=code&redirect_uri=https%3A%2F%2Ftest.api.myinfo.gov.sg%2Fserviceauth%2Fmyinfo-com%2Fv1%2Fauthenticate&client_id=NDI-AUTHCOM&state=iMNPHaDRnxKKef7Cp24m8Zc6LDm4lINxjHYzf7eP&nonce=MbE1p8k69xyyEWp2EoV-E7998IiH6I4gBOIqArrk
-
-https://test.api.myinfo.gov.sg/mockpass-sp/authorize?scope=openid&response_type=code&redirect_uri=https%3A%2F%2Ftest.api.myinfo.gov.sg%2Fserviceauth%2Fmyinfo-com%2Fv1%2Fauthenticate&client_id=NDI-AUTHCOM&state=tOJA1mK-N-eTiAZdm1BPFrt3MX1BWZx8o9I96HLf&nonce=4qEqh_hPVpefu3Rn6JW1kEaXXujpegQv8A03rhhz
-
+https://test.api.myinfo.gov.sg/mockpass-sp/authorize?scope=openid&response_type=code&redirect_uri=https%3A%2F%2Ftest.api.myinfo.gov.sg%2Fserviceauth%2Fmyinfo-com%2Fv1%2Fauthenticate&client_id=NDI-AUTHCOM&state=T61wwPuihginSciBLOUnTtZnJ0bipodyWUco8TGM&nonce=ZgsPlTKtmBXi6IK2j5VUsLIsDmuLxcFdUDNNvXEn
 1065f562308f347485232ae82ae4ca1037177f83
 66f722c2a9a58caf13f418fd2ff482f5a96660cd
 409b7a374b59d57563b9e30ff2ff0bc572b365b8
